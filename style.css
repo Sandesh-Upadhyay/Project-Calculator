@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #9376be;
+}
+
+.calc {
+    font-family:sans-serif;
+    position: relative;
+    float: right;
+}
+
+.calculator {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 30px 0 #00000020;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 20px 20px;
+    width: max-content;
+    z-index: 19;
+}
+
+.btn {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btnli {
+    background-color: #9376be;
+    border-radius: 12px;
+    border: none;
+    color: #fbf9ff;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 12px 16px;
+    position: relative;
+}
+
+.bright {
+    border-radius: 20px;
+    color: #34244c !important;
+    font-size: 17px;
+    padding: 15px;
+    margin: 5px;
+    gap: 10px;
+}
+
+.select {
+    margin: 6px 0;
+    width: 100%;
+    font-size: 18px;
+}
+
+
+.box {
+    color: rgb(128, 128, 128);
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding:10px;
+    width:-webkit-fill-available;
+    visibility: visible;
+} 
+.select label {
+    display: grid;
+    border-radius: 12px;
+}
+
+.quantity {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 17px;
+    width: 100%;
+    font-size: 18px;
+    color:;
+}
+.quantity input{
+    padding: 10px;
+    border-radius: 6px;
+    /* color: rgb(128, 128, 128); */
+    border: 1px solid rgb(128, 128, 128);
+}
+.quantity p {
+    color: #231833 !important;
+    font-size: 16px;
+    text-align: start;
+    margin-top: 10px;
+}
+.quantity button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: #fbf9ff;
+    background-color: #9376be;
+    cursor: pointer;   
+}
+.btm{
+    display: flex;
+    justify-content: space-between;
+}
+.btm p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btm button{
+    padding: 18px 20px;
+    background-color: #ffc966;
+    color:#231833;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    width: 100%;
+}
+
+
+
